@@ -15,8 +15,6 @@ def walk(path):
 		  else:
 			 if(os.path.isdir(filePath)):
 			 	walk(filePath)
-			 else:
-			     print("")
 		 
 			
 if __name__=='__main__' :
